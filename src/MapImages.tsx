@@ -15,7 +15,7 @@ function MapImages() {
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: animationStart + 1.5, duration: 1 }}
-        src={RightMap}
+        src={RightMap} alt=""
       />
     </div>
   );
