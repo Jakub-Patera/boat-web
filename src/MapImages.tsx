@@ -7,13 +7,13 @@ function MapImages() {
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: animationStart + 1, duration: 1 }}
-        src="../src/assets/map_1.png"
+        src="../publi/assets/map_1.png"
       />
       <motion.img
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: animationStart + 1.5, duration: 1 }}
-        src="../src/assets/map_2.png"
+        src="../publi/assets/map_2.png"
       />
     </div>
   );
